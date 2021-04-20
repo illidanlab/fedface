@@ -7,8 +7,10 @@
 #    Alternatively we can use a Dropbox link / GCP Bucket/ Amazon S3. 
 #    Q: which one you think is better? 
 
-wget "https://www.dropbox.com/sh/emevg60ys6wzny3/AAAsfskq3EusZpHjMBXtykzfa?dl=0";
-
+wget -O "lfw.zip" "https://www.dropbox.com/sh/emevg60ys6wzny3/AAAsfskq3EusZpHjMBXtykzfa?dl=0";
+sudo apt-get install unzip;
+unzip "lfw.zip" -d "lfw";
+rm "lfw.zip";
 
 
 # 2. Use `wget` to download the data files to this folder from the links above.
