@@ -7,10 +7,10 @@
 #    Alternatively we can use a Dropbox link / GCP Bucket/ Amazon S3. 
 #    Q: which one you think is better? 
 
-wget -O "lfw.zip" "https://www.dropbox.com/s/jypx4nwmtail9y7/LFW.zip?dl=0";
+wget -O "../lfw.zip" "https://www.dropbox.com/s/jypx4nwmtail9y7/LFW.zip?dl=0";
 sudo apt-get install unzip;
-unzip "lfw.zip" -d "lfw";
-rm "lfw.zip";
+unzip "../lfw.zip" -d "../lfw";
+rm "../lfw.zip";
 
 
 # 2. Use `wget` to download the data files to this folder from the links above.
