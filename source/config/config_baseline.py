@@ -21,6 +21,7 @@ log_base_dir = './log/'
 # The interval between writing summary
 summary_interval = 100
 
+train_dataset_path = "./CASIA_WebFace/list_casia_mtcnncaffe_aligned_remove_lfw_ijbc_megaface.txt"
 # Training dataset path
 # train_dataset_path = os.environ["DATABASES"] + "/FaceDatabases/CASIA-Webface/list_casia_mtcnncaffe_aligned_train.txt"
 # train_dataset_path = os.environ["DATABASES2"] + "/FaceDatabases/MsCeleb/list_msceleb5m_mtcnncaffe_aligned.txt"
