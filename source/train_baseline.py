@@ -438,6 +438,11 @@ def main(args):
 	config_file = args.config_file
 	# I/O
 	config = utils.import_file(config_file, 'config')
+	
+	if(os.path.isdir('./LFW/')):
+		continue
+	else:
+		os.system('./data/download.sh/')
 
 	# global global_weights
 
