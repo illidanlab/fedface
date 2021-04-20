@@ -442,7 +442,7 @@ def main(args):
 	if(os.path.isdir('./LFW/')):
 		continue
 	else:
-		os.system('./data/download.sh/')
+		os.system('../data/download.sh/')
 
 	# global global_weights
 
